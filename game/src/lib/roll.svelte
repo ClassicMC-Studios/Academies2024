@@ -22,6 +22,7 @@
     position:absolute;
     left:50%;
     transform: translate(-50%);
+		font-weight:bolder;
   }
 </style>
 
