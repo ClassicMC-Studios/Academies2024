@@ -1,8 +1,8 @@
 main{
   position:absolute;
   left:50%;
-  bottom:50%;
-  transform: translate(-50%);
+  top:50%;
+  transform: translate(-50%,-50%);
 }
 .h1{
   font-family: serif;
@@ -10,4 +10,10 @@ main{
 }
 .em{
   font-style: italic;
+}
+maintwoelectricbogaloo{
+  position: absolute;
+  left:50%;
+  top:110%;
+  transform: translate(-50% );
 }
