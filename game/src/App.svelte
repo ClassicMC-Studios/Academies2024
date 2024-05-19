@@ -21,7 +21,7 @@
 </style>
 <svelte:window bind:scrollY={y} on:load={startUp()}/>
 <main>
-  {#each 'decoder' as letter, i}
+  {#each 'Confession' as letter, i}
     {#if visable}
       <span class="h1" in:fade={{delay: 100 + i * 150, duration: 800}}>{letter}</span>
     {/if}
